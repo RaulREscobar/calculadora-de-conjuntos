@@ -304,8 +304,15 @@ def diferencia_de_conjuntos():
         segundo_conjunto = conjuntos[1]
         # Esto es para poder pasarle los parametros a la función que se importo. 
         
-        ## ------- AQUI USAMOS FUNCION DE DIFERENCIA IMPORTADA ------ ##        
+        ## ------- AQUI USAMOS FUNCION DE DIFERENCIA IMPORTADA ------ ##   
+
+        # FALTA AGREGARLA AQUÍ -----------------------------------------------------     
         diferencia_resuelta = interseccion.interseccion(primer_conjunto, segundo_conjunto)
+
+        ### --------------------------------------------------------------- ###
+
+
+
 
         # Función para mostrar los resultados en la ventana
         mostrar_diferencia_conjuntos(sorted(set(diferencia_resuelta)))
@@ -362,7 +369,4 @@ entry_diferencia.pack(pady=0)
 app.mainloop()
 
 #Hacer pseudocodigo
-
-## Falta Intersección: Son los numeros que comparten los conjuntos
-## Falta Complemento : los que no estan en el conjunto:
-
+# Falta agregar diferencia
